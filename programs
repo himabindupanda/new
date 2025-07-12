@@ -1,0 +1,21 @@
+#max of 2 numbers
+a=100
+b=30
+
+if(a>b):
+    print("a is greatest")
+else:
+    print("b is greatest")
+
+
+#max of 3 numbers
+a=100
+b=30
+c=50
+
+if(a>b and a>c):
+    print("a is greatest")
+elif(b>a and b>c):
+    print("b is greatest")
+else:
+    print("c is greatest")
